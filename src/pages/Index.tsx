@@ -35,7 +35,7 @@ export default function HomePage() {
           <ScrollReveal>
             
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold mb-6">
-              <span className="gradient-text">MusicGAN</span> Research
+              <span className="gradient-text">PolyHarmoniGAN</span> Research
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
               Advanced Multi-Track Polyphonic Music Generation Using Generative Adversarial Networks
