@@ -27,15 +27,15 @@ export default function Navbar() {
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-1">
-          {NAV_LINKS.map((l) => <Link
-              key={l.to}
-              to={l.to}
-              className={`px-3 py-2 rounded-md text-sm transition-colors ${
-              pathname === l.to ? 'text-primary bg-primary/10' : 'text-muted-foreground hover:text-foreground'}`
-              }>
-            
-              {l.label}
-            </Link>
+          {NAV_LINKS.map((l) => {}
+
+
+
+
+
+
+
+
           )}
         </div>
 
