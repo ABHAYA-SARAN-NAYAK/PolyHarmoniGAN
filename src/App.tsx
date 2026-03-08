@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Index from "./pages/Index";
 import Models from "./pages/Models";
 import Generate from "./pages/Generate";
-import Collaborate from "./pages/Collaborate";
+
 import Mixer from "./pages/Mixer";
 import Evaluation from "./pages/Evaluation";
 import NotFound from "./pages/NotFound";
@@ -25,7 +25,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/models" element={<Models />} />
           <Route path="/generate" element={<Generate />} />
-          <Route path="/collaborate" element={<Collaborate />} />
+          
           <Route path="/mixer" element={<Mixer />} />
           <Route path="/evaluation" element={<Evaluation />} />
           <Route path="*" element={<NotFound />} />
