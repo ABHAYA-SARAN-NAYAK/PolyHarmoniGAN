@@ -25,7 +25,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/models" element={<Models />} />
           <Route path="/generate" element={<Generate />} />
-          <Route path="/collaborate" element={<Collaborate />} />
+          
           <Route path="/mixer" element={<Mixer />} />
           <Route path="/evaluation" element={<Evaluation />} />
           <Route path="*" element={<NotFound />} />
