@@ -161,9 +161,6 @@ export default function GeneratePage() {
                   {playing ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4" />}
                   {playing ? 'Pause' : 'Play'}
                 </button>
-                <button disabled={!data} className="px-4 py-2 rounded-lg border border-border text-sm font-semibold flex items-center gap-2 disabled:opacity-30 hover:bg-muted transition">
-                  <Download className="w-4 h-4" /> Export MIDI
-                </button>
               </div>
             </div>
 
